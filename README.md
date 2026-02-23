@@ -6,7 +6,7 @@ Official documentation for **VERSA**, a private Discord bot developed and mainta
 This repository powers the **VERSA Help Center**, providing clear, structured, and up-to-date
 documentation for users of the VERSA bot and dashboard.
 
-[![Help Center](https://img.shields.io/badge/📚_Help_Center-Docs-green?style=flat-square)](https://afteryparty.github.io/versa-docs/) [![Website](https://img.shields.io/badge/🌐_Website-afterpartylabs.xyz-blue?style=flat-square)](https://afterpartylabs.xyz) [![Support](https://img.shields.io/badge/💖_Support-Patreon-orange?style=flat-square)](https://patreon.com/AfterpartyClub) [![Join Us](https://img.shields.io/badge/💬_Join_Us-Discord-7289DA?style=flat-square)](https://discord.gg/BusuZp2G8w)
+[![Help Center](https://img.shields.io/badge/📚_Help_Center-Docs-green?style=flat-square)](https://help.botversa.xyz/) [![Website](https://img.shields.io/badge/🌐_Website-afterpartylabs.xyz-blue?style=flat-square)](https://afterpartylabs.xyz) [![Support](https://img.shields.io/badge/💖_Support-Patreon-orange?style=flat-square)](https://patreon.com/AfterpartyClub) [![Join Us](https://img.shields.io/badge/💬_Join_Us-Discord-7289DA?style=flat-square)](https://discord.gg/BusuZp2G8w)
 
 ---
 
