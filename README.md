@@ -21,7 +21,7 @@ A powerful Discord bot by Afterparty Bot Labs
 Full documentation is available at:
 
 👉 **Visit the Help Center:**  
-[https://help.botversa.xyz](https://help.botversa.xyz)
+[help.botversa.xyz](https://help.botversa.xyz)
 
 ---
 
@@ -33,4 +33,4 @@ Full documentation is available at:
 
 ---
 
-*Powered by Afterparty Bot Labs © 2026*
+Powered by Afterparty Bot Labs © 2026
