@@ -19,32 +19,141 @@
         --versa: #00C7CF;
         --versaHover: #20e2ea;
         --border: rgba(255,255,255,.10);
+        --max: 980px;
       }
 
-      /* Safe layout upgrades for GitHub Pages + Midnight theme */
-      .header-inner { max-width: 980px; margin: 0 auto; padding: 0 1rem; }
-      .brand-row { display: flex; align-items: center; gap: 14px; justify-content: center; margin-bottom: 10px; flex-wrap: wrap; }
-      .brand-logo { width: 56px; height: 56px; border-radius: 14px; object-fit: cover; box-shadow: 0 10px 25px rgba(0,0,0,.18); }
-      .cta-row { margin-top: 18px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+      /* ---------- Midnight Theme Overrides (layout sanity) ---------- */
+      html, body { height: 100%; }
+      body { margin: 0; }
 
-      /* Fix: Midnight header spacing sometimes feels "off" */
-      .page-header { text-align: center; padding: 2.25rem 0 1.75rem; }
+      /* The theme sometimes uses widths/margins that cause the “offset” look */
+      .page-header,
+      .main-content,
+      .site-footer {
+        width: 100%;
+        box-sizing: border-box;
+      }
 
-      /* Buttons */
-      .btn { border-radius: 8px; padding: 10px 14px; font-weight: 700; }
-      .btn.primary { background: var(--versa); color: #081014; border: 1px solid rgba(255,255,255,.15); }
+      /* ---------- Header Layout ---------- */
+      .page-header {
+        text-align: center;
+        padding: 2.25rem 0 1.75rem;
+      }
+
+      .header-inner {
+        max-width: var(--max);
+        margin: 0 auto;
+        padding: 0 1rem;
+      }
+
+      .brand-row {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        justify-content: center;
+        margin: 0 0 10px;
+        flex-wrap: wrap;
+      }
+
+      .brand-logo {
+        width: 56px;
+        height: 56px;
+        border-radius: 14px;
+        object-fit: cover;
+        box-shadow: 0 10px 25px rgba(0,0,0,.18);
+      }
+
+      .cta-row {
+        margin-top: 16px;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      /* Make sure header titles don’t carry odd margins */
+      .project-name { margin: 0; }
+      .project-tagline { margin: .25rem 0 0; }
+
+      /* ---------- Buttons ---------- */
+      .btn {
+        border-radius: 10px;
+        padding: 10px 14px;
+        font-weight: 700;
+        line-height: 1;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        white-space: nowrap;
+      }
+
+      .btn.primary {
+        background: var(--versa);
+        color: #081014;
+        border: 1px solid rgba(255,255,255,.15);
+      }
       .btn.primary:hover { background: var(--versaHover); }
-      .btn.secondary { background: rgba(255,255,255,.10); border: 1px solid rgba(255,255,255,.16); color: #fff; }
+
+      .btn.secondary {
+        background: rgba(255,255,255,.10);
+        border: 1px solid rgba(255,255,255,.16);
+        color: #fff;
+      }
       .btn.secondary:hover { background: rgba(255,255,255,.16); }
 
-      /* ✅ Fix: center content (this is the main “offset” fix) */
-      .main-content { max-width: 980px; margin: 0 auto; padding: 0 1rem; }
+      /* ---------- Main Content (true center fix) ---------- */
+      main.main-content {
+        max-width: var(--max);
+        margin: 0 auto !important;
+        padding: 0 1rem 2rem;
+      }
 
-      /* Footer */
-      .site-footer { max-width: 980px; margin: 0 auto; padding: 26px 1rem 40px; color: rgba(255,255,255,.55); font-size: 0.95rem; }
+      /* Prevent markdown content from “pushing” layout weirdly */
+      main.main-content img,
+      main.main-content video,
+      main.main-content iframe {
+        max-width: 100%;
+        height: auto;
+      }
+
+      /* Optional: soften the default HR look */
+      main.main-content hr {
+        border: 0;
+        border-top: 1px solid rgba(255,255,255,.10);
+        margin: 2rem 0;
+      }
+
+      /* ---------- Footer ---------- */
+      .site-footer {
+        max-width: var(--max);
+        margin: 0 auto;
+        padding: 26px 1rem 40px;
+        color: rgba(255,255,255,.55);
+        font-size: 0.95rem;
+      }
       .site-footer a { color: inherit; text-decoration: underline; }
-      .footer-row { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; align-items: center; }
-      .badge { display:inline-flex; gap:8px; align-items:center; padding:6px 10px; border-radius:999px; background: rgba(255,255,255,.07); border:1px solid var(--border); color:#fff; font-size:.9rem; }
+
+      .footer-row {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+
+      .badge {
+        display: inline-flex;
+        gap: 8px;
+        align-items: center;
+        padding: 6px 10px;
+        border-radius: 999px;
+        background: rgba(255,255,255,.07);
+        border: 1px solid var(--border);
+        color: #fff;
+        font-size: .9rem;
+      }
+
       .muted { opacity: .75; }
     </style>
   </head>
