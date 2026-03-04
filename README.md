@@ -7,10 +7,10 @@
   <a href="https://help.botversa.xyz">
     <img src="https://img.shields.io/badge/Help%20Center-Documentation-915DDF?style=for-the-badge&logo=readthedocs&logoColor=white" />
   </a>
-  <a href="PASTE_INVITE_LINK_HERE">
+  <a href="https://discord.com/api/oauth2/authorize?client_id=1200483261533650966&permissions=8&scope=applications.commands+bot"
     <img src="https://img.shields.io/badge/Add%20Bot-Invite-915DDF?style=for-the-badge&logo=discord&logoColor=white" />
   </a>
-  <a href="PASTE_SUPPORT_INVITE_HERE">
+  <a href="https://discord.com/invite/BusuZp2G8w">
     <img src="https://img.shields.io/badge/Support-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
   </a>
   <a href="https://afterpartylabs.xyz">
