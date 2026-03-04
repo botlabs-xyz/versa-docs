@@ -4,38 +4,65 @@
 @import "jekyll-theme-midnight";
 
 /* -------------------------------- */
-/* Global Link Color */
+/* Brand Colors */
 /* -------------------------------- */
-
-a {
-  color: #915DDF;
-  text-decoration: none;
+:root {
+  --versa: #00C7CF;      /* VERSA teal */
+  --versa-hover: #20e2ea;
+  --bg: #0b0c10;
+  --panel: #111318;
+  --border: rgba(255,255,255,0.06);
+  --text-muted: #9aa0a6;
 }
 
+/* -------------------------------- */
+/* Global Link Color */
+/* -------------------------------- */
+a {
+  color: var(--versa);
+  text-decoration: none;
+}
 a:hover {
-  color: #b58cff;
+  color: var(--versa-hover);
+  text-decoration: underline;
 }
 
 /* -------------------------------- */
 /* Page Background */
 /* -------------------------------- */
-
 body {
-  background: #0b0c10;
+  background: var(--bg);
+}
+
+/* -------------------------------- */
+/* Fix: Center layout + reduce “left offset” */
+/* -------------------------------- */
+.main-content {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.page-header {
+  text-align: center;
+}
+
+/* Midnight sometimes wraps content; keep it centered */
+.wrapper,
+.container {
+  margin: 0 auto;
 }
 
 /* -------------------------------- */
 /* Header Styling */
 /* -------------------------------- */
-
 .site-header {
-  border-bottom: 1px solid rgba(255,255,255,0.05);
+  border-bottom: 1px solid var(--border);
 }
 
 /* -------------------------------- */
 /* Title / Hero */
 /* -------------------------------- */
-
 h1, h2, h3 {
   color: #ffffff;
 }
@@ -43,48 +70,46 @@ h1, h2, h3 {
 /* -------------------------------- */
 /* Buttons */
 /* -------------------------------- */
-
 .button,
 .btn {
-  background: #915DDF;
+  background: var(--versa);
   border-radius: 6px;
   padding: 10px 16px;
-  color: #ffffff;
+  color: #081014; /* dark text looks crisp on teal */
+  border: 1px solid rgba(255,255,255,0.12);
 }
 
 .button:hover,
 .btn:hover {
-  background: #a876ff;
+  background: var(--versa-hover);
 }
 
 /* -------------------------------- */
 /* Code Blocks */
 /* -------------------------------- */
-
-pre, code {
-  background: #111318;
+pre,
+code {
+  background: var(--panel);
   border-radius: 6px;
 }
 
 /* -------------------------------- */
 /* Tables */
 /* -------------------------------- */
-
 table {
-  border: 1px solid rgba(255,255,255,0.05);
+  border: 1px solid var(--border);
 }
 
 th {
-  background: #111318;
+  background: var(--panel);
 }
 
 /* -------------------------------- */
 /* Footer */
 /* -------------------------------- */
-
 footer {
-  border-top: 1px solid rgba(255,255,255,0.05);
+  border-top: 1px solid var(--border);
   margin-top: 40px;
   padding-top: 20px;
-  color: #777;
+  color: var(--text-muted);
 }
