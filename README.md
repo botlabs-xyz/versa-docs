@@ -1,6 +1,5 @@
 <div align="center">
 
-# VERSA
 *A powerful Discord bot by Afterparty Bot Labs*
 
 </div>
@@ -11,9 +10,9 @@
 
 **VERSA** is a private Discord bot developed and maintained by **Afterparty Bot Labs**.
 
-- Built for reliability, automation, and moderation at scale  
-- Includes a structured Help Center and user-facing documentation  
-- Designed to power real communities with clean workflows  
+- Built for reliability, automation, and moderation at scale
+- Includes a structured Help Center and user-facing documentation
+- Designed to power real communities with clean workflows
 
 ---
 
