@@ -1,6 +1,6 @@
 <div align="center">
 
-*A powerful Discord bot by Afterparty Bot Labs*
+A powerful Discord bot by Afterparty Bot Labs
 
 </div>
 
