@@ -34,7 +34,7 @@ A powerful Discord bot by Afterparty Bot Labs
 
 Full documentation is available at:
 
-👉 https://help.botversa.xyz
+👉 [https://help.botversa.xyz](https://help.botversa.xyz)
 
 ---
 
