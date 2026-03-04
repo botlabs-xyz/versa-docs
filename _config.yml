@@ -5,8 +5,8 @@ description: "Official Documentation for the VERSA Discord Bot by Afterparty Bot
 
 show_downloads: false
 
-# Brand color
-theme_color: "#915DDF"
+# Brand color (VERSA teal)
+theme_color: "#00C7CF"
 
 # Branding
 footer_brand: "Afterparty Bot Labs"
@@ -20,5 +20,3 @@ cta_docs_url: "https://help.botversa.xyz"
 cta_invite_url: "https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&permissions=8&scope=bot%20applications.commands"
 cta_support_url: "https://discord.gg/YOURSERVER"
 cta_website_url: "https://afterpartylabs.xyz"
-
-© 2026 Afterparty Bot Labs — Website
