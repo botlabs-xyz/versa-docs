@@ -8,32 +8,43 @@
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="{{ site.theme_color | default: '#915DDF' }}" />
+    <meta name="theme-color" content="{{ site.theme_color | default: '#00C7CF' }}" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" />
     {% include head-custom.html %}
 
     <style>
+      :root{
+        --versa: #00C7CF;
+        --versaHover: #20e2ea;
+        --border: rgba(255,255,255,.10);
+      }
+
       /* Safe layout upgrades for GitHub Pages + Midnight theme */
       .header-inner { max-width: 980px; margin: 0 auto; padding: 0 1rem; }
       .brand-row { display: flex; align-items: center; gap: 14px; justify-content: center; margin-bottom: 10px; flex-wrap: wrap; }
       .brand-logo { width: 56px; height: 56px; border-radius: 14px; object-fit: cover; box-shadow: 0 10px 25px rgba(0,0,0,.18); }
       .cta-row { margin-top: 18px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
 
+      /* Fix: Midnight header spacing sometimes feels "off" */
+      .page-header { text-align: center; padding: 2.25rem 0 1.75rem; }
+
       /* Buttons */
       .btn { border-radius: 8px; padding: 10px 14px; font-weight: 700; }
-      .btn.primary { background: #915DDF; color: #fff; border: 1px solid rgba(255,255,255,.15); }
-      .btn.primary:hover { background: #a876ff; }
-      .btn.secondary { background: rgba(255,255,255,.10); border: 1px solid rgba(255,255,255,.16); }
+      .btn.primary { background: var(--versa); color: #081014; border: 1px solid rgba(255,255,255,.15); }
+      .btn.primary:hover { background: var(--versaHover); }
+      .btn.secondary { background: rgba(255,255,255,.10); border: 1px solid rgba(255,255,255,.16); color: #fff; }
       .btn.secondary:hover { background: rgba(255,255,255,.16); }
 
-      /* Content width + footer */
-      .main-content { max-width: 980px; }
+      /* ✅ Fix: center content (this is the main “offset” fix) */
+      .main-content { max-width: 980px; margin: 0 auto; padding: 0 1rem; }
+
+      /* Footer */
       .site-footer { max-width: 980px; margin: 0 auto; padding: 26px 1rem 40px; color: rgba(255,255,255,.55); font-size: 0.95rem; }
       .site-footer a { color: inherit; text-decoration: underline; }
       .footer-row { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; align-items: center; }
-      .badge { display:inline-flex; gap:8px; align-items:center; padding:6px 10px; border-radius:999px; background: rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.10); color:#fff; font-size:.9rem; }
+      .badge { display:inline-flex; gap:8px; align-items:center; padding:6px 10px; border-radius:999px; background: rgba(255,255,255,.07); border:1px solid var(--border); color:#fff; font-size:.9rem; }
       .muted { opacity: .75; }
     </style>
   </head>
