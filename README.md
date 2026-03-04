@@ -5,16 +5,16 @@
 
 <p align="center">
   <a href="https://help.botversa.xyz">
-    <img src="https://img.shields.io/badge/Help%20Center-Documentation-915DDF?style=for-the-badge&logo=readthedocs&logoColor=white" />
+    <img src="https://img.shields.io/badge/Help%20Center-Documentation-00C7CF?style=for-the-badge&logo=readthedocs&logoColor=white" />
   </a>
-  <a href="https://discord.com/api/oauth2/authorize?client_id=1200483261533650966&permissions=8&scope=applications.commands+bot"
-    <img src="https://img.shields.io/badge/Add%20Bot-Invite-915DDF?style=for-the-badge&logo=discord&logoColor=white" />
+  <a href="https://discord.com/api/oauth2/authorize?client_id=1200483261533650966&permissions=8&scope=applications.commands+bot">
+    <img src="https://img.shields.io/badge/Add%20Bot-Invite-00C7CF?style=for-the-badge&logo=discord&logoColor=white" />
   </a>
   <a href="https://discord.com/invite/BusuZp2G8w">
     <img src="https://img.shields.io/badge/Support-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
   </a>
   <a href="https://afterpartylabs.xyz">
-    <img src="https://img.shields.io/badge/Afterparty%20Bot%20Labs-Website-2ED7E6?style=for-the-badge&logo=googlechrome&logoColor=white" />
+    <img src="https://img.shields.io/badge/Afterparty%20Bot%20Labs-Website-00C7CF?style=for-the-badge&logo=googlechrome&logoColor=white" />
   </a>
 </p>
 
@@ -24,9 +24,9 @@
 
 **VERSA** is a private Discord bot developed and maintained by **Afterparty Bot Labs**.
 
-- Built for reliability, automation, and moderation at scale
-- Includes a structured Help Center and user-facing docs
-- Designed to power real communities with clean workflows
+- Built for reliability, automation, and moderation at scale  
+- Includes a structured Help Center and user-facing documentation  
+- Designed to power real communities with clean workflows  
 
 ---
 
