@@ -1,35 +1,39 @@
 # Contributing to VERSA Documentation
 
-Thank you for your interest in improving the VERSA Help Center 💜
+Thank you for your interest in improving the **VERSA Help Center** 💜
 
-VERSA is a **private Discord bot** developed and maintained by **Afterparty Bot Labs**.
-This documentation repository is managed internally and is not open-source.
+VERSA is a **private Discord bot** developed and maintained by **Afterparty Bot Labs**.  
+This documentation repository exists to provide official guides and references for users.
+
+Please note that this repository is **not open-source**.
 
 ---
 
 ## 🔒 Contribution Policy
 
-Please note the following:
+External contributions are **not accepted** for this project.
 
-- ❌ Forks are not accepted
-- ❌ Pull requests are not accepted
-- ❌ External code or documentation changes cannot be merged
-- ❌ Self-hosting guides are not supported
+This means:
 
-All development and documentation updates are handled internally by Afterparty Bot Labs.
+- ❌ Forks are not accepted  
+- ❌ Pull requests are not accepted  
+- ❌ External code or documentation edits cannot be merged  
+- ❌ Self-hosting guides are not supported  
+
+All development and documentation updates are handled internally by the **Afterparty Bot Labs team**.
 
 ---
 
-## ✅ How You *Can* Help
+## 💡 Community Feedback
 
-Even though direct contributions aren’t accepted, **community feedback is always welcome**.
+Although direct contributions are not accepted, **community feedback is always welcome**.
 
-You can help by:
+You can help improve the documentation by:
 
-- Reporting outdated or incorrect documentation
+- Reporting outdated or incorrect information
 - Suggesting clearer explanations or examples
-- Requesting new documentation pages or guides
-- Pointing out features that need better coverage
+- Requesting new guides or documentation pages
+- Identifying features that need better coverage
 
 Feedback from real users helps us continuously improve the Help Center experience.
 
@@ -37,34 +41,37 @@ Feedback from real users helps us continuously improve the Help Center experienc
 
 ## 📬 Submitting Feedback
 
-Please submit documentation feedback through official channels only:
+Please submit documentation feedback through the official VERSA support channels.
 
-### 🔹 VERSA Support Server
+### VERSA Support Server
 👉 https://discord.gg/BusuZp2G8w
 
-When submitting feedback, please include:
-- The page or section you’re referring to
-- What feels unclear or incorrect
-- Any suggestions you may have
+When reporting documentation issues, please include:
 
-Our team reviews all feedback and applies changes internally.
+- The **page or section** you are referencing
+- What appears **incorrect or unclear**
+- Any **suggested improvements**
+
+Our team reviews all feedback and applies documentation updates internally.
 
 ---
 
 ## ❤️ Supporting Development
 
-If you enjoy VERSA and would like to support ongoing development,
-**donations are always appreciated** and help us:
+If you enjoy VERSA and want to support ongoing development,  
+you can help fund continued work through **Afterparty Bot Labs**.
+
+Support helps us:
 
 - Maintain existing features
 - Improve documentation and tooling
-- Develop new projects under **Afterparty Bot Labs**
+- Build new tools and community projects
 
-Support is completely optional and can be done via Patreon:
+Support is optional and available through Patreon:
 
-👉 **https://patreon.com/AfterpartyClub**
+👉 https://patreon.com/AfterpartyClub
 
-Premium features and perks are offered as a thank-you for supporting the project.
+Premium features and perks are provided as a thank-you for supporting development.
 
 ---
 
@@ -72,9 +79,11 @@ Premium features and perks are offered as a thank-you for supporting the project
 
 VERSA documentation is built **for users first**.
 
-Clear feedback and community support allow us to:
+Community feedback allows us to:
+
 - Improve onboarding
 - Reduce confusion
-- Continue building high-quality tools
+- Provide clearer documentation
+- Continue developing high-quality tools
 
-Thank you for being part of the VERSA community.
+Thank you for being part of the **VERSA community**.
