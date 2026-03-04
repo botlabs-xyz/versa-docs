@@ -13,7 +13,7 @@ footer_brand: "Afterparty Bot Labs"
 footer_link: "https://afterpartylabs.xyz"
 
 # Logo (optional — add later if you want)
-# logo: "/assets/images/versa-logo.png"
+logo: "/assets/images/versa-logo.png"
 
 # Header buttons
 cta_docs_url: "https://help.botversa.xyz"
