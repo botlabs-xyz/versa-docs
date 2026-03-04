@@ -3,6 +3,88 @@
 
 @import "jekyll-theme-midnight";
 
+/* -------------------------------- */
+/* Global Link Color */
+/* -------------------------------- */
+
 a {
-  color: #00e5ff;
+  color: #915DDF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b58cff;
+}
+
+/* -------------------------------- */
+/* Page Background */
+/* -------------------------------- */
+
+body {
+  background: #0b0c10;
+}
+
+/* -------------------------------- */
+/* Header Styling */
+/* -------------------------------- */
+
+.site-header {
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+/* -------------------------------- */
+/* Title / Hero */
+/* -------------------------------- */
+
+h1, h2, h3 {
+  color: #ffffff;
+}
+
+/* -------------------------------- */
+/* Buttons */
+/* -------------------------------- */
+
+.button,
+.btn {
+  background: #915DDF;
+  border-radius: 6px;
+  padding: 10px 16px;
+  color: #ffffff;
+}
+
+.button:hover,
+.btn:hover {
+  background: #a876ff;
+}
+
+/* -------------------------------- */
+/* Code Blocks */
+/* -------------------------------- */
+
+pre, code {
+  background: #111318;
+  border-radius: 6px;
+}
+
+/* -------------------------------- */
+/* Tables */
+/* -------------------------------- */
+
+table {
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+th {
+  background: #111318;
+}
+
+/* -------------------------------- */
+/* Footer */
+/* -------------------------------- */
+
+footer {
+  border-top: 1px solid rgba(255,255,255,0.05);
+  margin-top: 40px;
+  padding-top: 20px;
+  color: #777;
 }
