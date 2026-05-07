@@ -1,50 +1,32 @@
-# VERSA
+﻿# VERSA
 
 Reliable automation and moderation for Discord communities.
 
-[![Documentation](https://img.shields.io/badge/Documentation-Help%20Center-00C7CF?style=for-the-badge)](https://help.botversa.xyz)
-[![Support](https://img.shields.io/badge/Support-Discord-00C7CF?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/BusuZp2G8w)
-[![Website](https://img.shields.io/badge/Website-Afterparty%20Bot%20Labs-00C7CF?style=for-the-badge)](https://afterpartylabs.xyz)
+[![Docs](https://img.shields.io/badge/Docs-00C7CF?style=for-the-badge)](https://help.botversa.xyz)
+[![Invite](https://img.shields.io/badge/Invite-00C7CF?style=for-the-badge)](https://discord.com/api/oauth2/authorize?client_id=1200483261533650966&permissions=8&scope=applications.commands+bot)
+[![Dashboard](https://img.shields.io/badge/Dashboard-00C7CF?style=for-the-badge)](https://botversa.xyz/)
+[![Support](https://img.shields.io/badge/Support-00C7CF?style=for-the-badge)](https://discord.gg/BusuZp2G8w)
 
----
+VERSA is a private Discord bot project focused on moderation reliability, automation, and scalable server workflows.
 
-VERSA is a **private Discord bot** developed by **Afterparty Bot Labs** focused on reliability, automation, and structured moderation workflows.
+## Documentation
 
----
+- Live docs: <https://help.botversa.xyz>
+- Start with: `setup.md` and `commands.md`
 
-# ✨ Features
+## Public Pages
 
-- Moderation tools designed for real communities
-- Automation and utility commands
-- Structured help center and documentation
-- Reliable command framework
-- Designed for large servers and scalable setups
+- Home
+- Commands
+- Setup
+- Permissions
+- Troubleshooting
+- FAQ
+- Privacy
+- Terms
 
----
+## Project Notice
 
-# 📚 Documentation
-
-Full documentation is available here:
-
-👉 https://help.botversa.xyz
-
----
-
-# 🏢 Project
-
-VERSA is developed and maintained by **Afterparty Bot Labs**.
-
-Website  
-https://afterpartylabs.xyz
-
----
-
-# 📜 Project Notice
-
-• This bot is **private**  
-• Forks and PRs are **not accepted**  
-• Self-hosting is **not supported**
-
----
-
-Powered by **Afterparty Bot Labs © 2026**
+- This bot is private
+- Forks and PRs are not accepted
+- Self-hosting is not supported
