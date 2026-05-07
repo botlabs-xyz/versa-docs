@@ -1,4 +1,4 @@
-﻿title: "VERSA Help Center"
+title: "VERSA Help Center"
 description: "Official Documentation for the VERSA Discord Bot by Afterparty Bot Labs"
 show_downloads: false
 theme_color: "#00C7CF"
@@ -12,6 +12,6 @@ topgg_url: "https://top.gg/bot/1200483261533650966/vote"
 cta_dashboard_url: "https://botversa.xyz/"
 cta_support_url: "https://discord.gg/BusuZp2G8w"
 cta_docs_url: "https://help.botversa.xyz"
-url: "https://help.botversa.xyz"
-baseurl: ""
+url: "https://botlabs-xyz.github.io"
+baseurl: "/versa-docs"
 markdown: kramdown
